@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <p>Contact Me Form:</p>
+        <label for="name">First Name:</label>
+        <input type="text" id="name" name="firstname" placeholder="firstname" required>
+        
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" name="lastname" placeholder="lastname">
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="email" required><br>
+        
+        <label for="number">Contact Number:</label>
+        <input type="tel" id="number" name="contactnumber" placeholder="contact number"><br>
+
+        <label for="city">City</label>
+        <input type="text" id="city" name="city" placeholder="your city" required><br>
+        
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="other">Other</label>
+        <input type="radio" name="gender" value="other" id="other"><br>
+        
+
+        <label for="reason">Intention:</label>
+        <select id="reason" name="reason">
+            <option value="Internship">Internship</option>
+            <option value="Job Opportunity">Job Opportunity</option>
+            <option value="Feedback">Feedback</option>
+            <option value="Others">Other</option><br>
+        </select><br>
+
+
+        <label for="message">Message</label><br>
+        <textarea id="message" cols="20" rows="3">write your intention to contact</textarea>
+    
+
+        <p>Select the time for contacting:</p>
+        <label for="morning">Morning:</label>
+        <input type="radio" name="available" value="morning" id="morning"><br>
+        
+        <label for="afternoon">Afternoon:</label>
+        <input type="radio" name="available" value="afternoon" id="afternoon"><br>
+        
+        <label for="evening">Evening:</label>
+        <input type="radio" name="available" value="evening" id="evening"><br>
+        
+        <label for="other-time">Other:</label>
+        <input type="radio" name="available" value="other" id="other-time"><br>
+        
+        <label for="Contact-time">Preferred Time:</label>
+        <input type="time" id="Contact-time" name="Contact-time"><br>
+        
+        <label for="consent">I agree to be contacted via email or phone:</label>
+        <input type="checkbox" id="consent" name="consent" required>
+        <br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
